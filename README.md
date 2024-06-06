@@ -4,7 +4,7 @@ VB.NET Multi-Threaded Socket Server with Logging and Error Handling
 
 This project provides a robust and scalable socket server implementation in VB.NET. It leverages multi-threading to handle concurrent client connections, incorporates a simple logging mechanism, and gracefully manages errors.
 
-Key Features
+# Key Features
 
 Multi-Threading: Efficiently handles multiple client connections simultaneously using separate threads, ensuring responsiveness and scalability.
 
@@ -15,7 +15,7 @@ Error Handling: Includes Try...Catch...Finally blocks and a custom ErrorHandler 
 Graceful Shutdown: Allows the server to shut down cleanly by waiting for all active client threads to complete.
 
 
-Getting Started
+# Getting Started
 
 Prerequisites
 
@@ -24,7 +24,7 @@ Prerequisites
 IDE (Optional): You can use any VB.NET compatible IDE (like Visual Studio) for development and debugging.
 
 
-Running the Server
+# Running the Server
 
 Compilation: Compile the VB.NET code to generate an executable.
 
@@ -37,7 +37,7 @@ Interaction: The server will send a "Hello from the server!" message upon a succ
 Server Termination: Press the "Q" key in the server console window to initiate a graceful shutdown. The server will wait for all active client threads to complete before stopping.
 
 
-Code Structure
+# Code Structure
 
 Main Subroutine: The entry point of the server application. Initializes the listener, starts the main loop, and handles shutdown.
 
@@ -48,7 +48,7 @@ ErrorHandler Class: A simple class to log and manage errors.
 ILogger Interface and ConsoleLogger Class: Provides a basic logging mechanism with a console implementation.
 
 
-Potential Enhancements
+# Potential Enhancements
 
 Advanced Logging: Consider using a dedicated logging framework like log4net or NLog for more flexible and feature-rich logging.
 
@@ -59,8 +59,8 @@ Data Serialization: Use a structured data format like JSON for more complex mess
 Security: If you plan to transmit sensitive data, add encryption to secure the communication channel.
 
 
-Contributing
+# Contributing
 Feel free to fork this repository and contribute enhancements or additional features. Pull requests are welcome!
 
-License
+# License
 This code is provided under the MIT License.
